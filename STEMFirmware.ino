@@ -38,8 +38,8 @@ unsigned long startMillis = 0;
 int stateLedRun = LOW;
 
 //Define automatic running parameters
-float x0 = 120.0;   // motor start voltage
-float xf = 240.0;   // motor end voltage
+float x0 = 100.0;   // motor start voltage
+float xf = 245.0;   // motor end voltage
 float xCutoff = 20000.0;    //Transition/cutoff point
 float R = 20;       // Smoothness parameter
 float k1 = (xf-x0)/xCutoff;   // First slope (set below)
